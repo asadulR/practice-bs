@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggleable dynammic tab/pill</title>
+
+    <!-- bootstrap link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+    <style>
+        .nav-link{
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="bg-info">
+        <div class="container">
+            <nav class="">
+                <div class="row">
+                    <div class="col-lg-5 col-md-4">
+                        <h1 class="text-white text-center">Asadul Rahman</h1>
+                    </div>
+                    <div class="col-lg-7 col-md-8">
+                        <ul class="nav justify-content-center py-2">
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Home</a> </li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a> </li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a> </li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">About me</a> </li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Log In</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="toggle">
+            <div class="container">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis optio quidem consectetur sint! Impedit cupiditate quibusdam facere aperiam officia?</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, incidunt modi. Veritatis a hic praesentium soluta ipsam in, fuga voluptates illum maxime. Neque blanditiis iure omnis praesentium nesciunt quaerat perferendis, cumque et nostrum, debitis libero officia beatae, obcaecati quidem ullam?</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, molestiae quam sit ullam eveniet natus odit temporibus inventore! Animi officiis totam excepturi sequi facere itaque maiores deleniti ut quia dolore, exercitationem explicabo praesentium tempore quod, sapiente iure aut quisquam laborum ab veniam, earum iusto omnis inventore quaerat? Velit totam veritatis nesciunt ut impedit, rerum magnam doloribus nulla delectus neque et officiis aperiam laboriosam quisquam recusandae porro eius? Laboriosam earum quos, perspiciatis nesciunt assumenda tenetur rerum tempore libero. Magnam in qui nemo distinctio eligendi, molestias odio pariatur architecto beatae vitae at fugiat asperiores ad rem ipsum voluptates maxime deserunt sunt quasi.</div>
+                  </div> 
+
+
+
+                  <h1>My name is Asadullah Galib Asad</h1>
+                
+            </div>
+        </section>
+    </main>
+    
+
+
+
+
+
+    <!-- style link bs -->
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
